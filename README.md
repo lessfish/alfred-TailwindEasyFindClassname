@@ -14,6 +14,7 @@
 
 * 因为仅个人使用，懒得导出了，可以直接 clone 到具体存放 workflow 的文件夹中进行使用
 * 运行脚本需要修改成自己的 node 所在位置
+* 这里并不是全部数据，只是自己需要的数据，如果需要添加其他数据，可参考 [开发背景](https://github.com/lessfish/alfred-TailwindEasyFindClassname#%E5%BC%80%E5%8F%91%E8%83%8C%E6%99%AF) 进行补充
 
 ## 开发背景
 
