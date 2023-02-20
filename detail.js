@@ -1,6 +1,5 @@
-const [name, keyword] = process.argv[2].split(' ')
-const originName = name.split('\t').join(' ') // 因为之前用 \t 给 join 成一个字符串了，不然 keyword 不好拆分
-const list = require('./class-list.json').find(item => item.name === originName)?.list || []
+const [, , name, keyword] = process.argv
+const list = require('./class-list.json').find(item => item.name === name)?.list || []
 
 const res = []
 

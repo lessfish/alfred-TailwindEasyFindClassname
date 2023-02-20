@@ -8,7 +8,7 @@
 
 在 Alfred 中，输入 `tw` 关键字，回车或者空格后，输入需要查询的 style 样式 key（比如 `margin`、`pad`（模糊搜索）等），返回列表。回车选择需要查询的样式 key，此时返回 tailwind 中关于该样式的可用类名列表，此时可以再次输入关键字进行模糊查询，回车复制最终类名
 
-另外需要直接 open 文档的话，可在第一次关键字查询后，用 `cmd+option+enter` 打开 tailwind 中的文档（这里不知道为啥直接用 cmd 当作 Action Modifier 不生效）
+另外需要直接 open 文档的话，可在第一次关键字查询后，用 `cmd+option+enter` 打开 tailwind 中的文档（这里因为 `cmd+enter` 快捷键已经被占用了）
 
 ## 使用 issue
 
